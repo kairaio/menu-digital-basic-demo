@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kaira Resto — Menu Digital</title>
+  <meta name="description" content="Demo Menu Digital Basic — katalog menu online, mobile friendly, order langsung ke WhatsApp atau Telegram." />
+  <style>
+    :root{--bg:#f7f4ef;--card:#fff;--text:#1f2937;--muted:#6b7280;--brand:#7c2d12;--brand2:#ea580c;--line:#eadfd4;--soft:#fff7ed}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+    a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:auto;padding:18px}.hero{background:linear-gradient(135deg,#431407,#9a3412 55%,#ea580c);color:#fff;border-radius:28px;padding:34px 24px;overflow:hidden;position:relative}.hero:after{content:"🍽️";position:absolute;right:24px;bottom:-16px;font-size:118px;opacity:.14;transform:rotate(-10deg)}.eyebrow{font-size:12px;letter-spacing:.16em;font-weight:800;opacity:.85}.hero h1{font-size:clamp(30px,6vw,56px);line-height:1;margin:8px 0 10px}.hero p{max-width:630px;margin:0;opacity:.9}.info{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.pill{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.18);padding:9px 12px;border-radius:999px;font-size:13px;font-weight:700}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:30px 2px 14px}.section-head h2{margin:0;font-size:26px}.section-head p{margin:4px 0 0;color:var(--muted);font-size:14px}.cats{display:flex;gap:8px;overflow:auto;padding:2px 0 12px;scrollbar-width:none}.cats::-webkit-scrollbar{display:none}.cat{border:1px solid var(--line);background:#fff;padding:10px 15px;border-radius:999px;white-space:nowrap;font-weight:700;color:#59463b}.cat.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}.photo{width:100%;aspect-ratio:4/3;object-fit:cover;background:#eee}.body{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}.topline{display:flex;justify-content:space-between;gap:8px;align-items:start}.name{font-weight:800;font-size:17px}.price{font-size:18px;font-weight:900;color:var(--brand)}.desc{font-size:13px;color:var(--muted);line-height:1.45;min-height:38px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}.btn{display:flex;justify-content:center;align-items:center;gap:6px;border-radius:12px;padding:10px 11px;font-weight:800;font-size:13px}.wa{background:#16a34a;color:#fff}.tg{background:#0ea5e9;color:#fff}.note{margin-top:28px;background:var(--soft);border:1px solid #fed7aa;border-radius:18px;padding:16px;color:#7c2d12}.footer{text-align:center;color:var(--muted);font-size:12px;padding:28px 0 8px}
+    @media(max-width:840px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.wrap{padding:12px}.hero{padding:26px 18px;border-radius:22px}.grid{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.photo{aspect-ratio:16/10}.actions{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">DEMO MENU DIGITAL BASIC</div>
+      <h1>Kaira Resto</h1>
+      <p>Lihat menu, harga, dan pesan langsung ke admin lewat WhatsApp atau Telegram. Tidak perlu install aplikasi.</p>
+      <div class="info"><span class="pill">🕙 Open Daily 10:00–22:00</span><span class="pill">📍 Cambodia</span><span class="pill">📱 Mobile Friendly</span></div>
+    </section>
+
+    <div class="section-head"><div><h2>Menu Pilihan</h2><p>Contoh tampilan paket BASIC untuk resto.</p></div></div>
+    <div class="cats"><span class="cat active">Semua</span><span class="cat">Makanan</span><span class="cat">Minuman</span><span class="cat">Snack</span></div>
+
+    <section class="grid">
+      <article class="card"><img class="photo" alt="Ayam goreng crispy" src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=80"><div class="body"><div class="topline"><div class="name">Crispy Chicken</div><div class="price">$4.50</div></div><div class="desc">Ayam goreng crispy dengan pilihan nasi dan saus.</div><div class="actions"><a class="btn wa" href="https://wa.me/855964065246?text=Halo%20saya%20mau%20pesan%20Crispy%20Chicken" target="_blank">WhatsApp</a><a class="btn tg" href="https://t.me/kairajsn" target="_blank">Telegram</a></div></div></article>
+      <article class="card"><img class="photo" alt="Burger" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"><div class="body"><div class="topline"><div class="name">Beef Burger</div><div class="price">$5.20</div></div><div class="desc">Burger daging sapi, keju, sayur segar, dan saus spesial.</div><div class="actions"><a class="btn wa" href="https://wa.me/855964065246?text=Halo%20saya%20mau%20pesan%20Beef%20Burger" target="_blank">WhatsApp</a><a class="btn tg" href="https://t.me/kairajsn" target="_blank">Telegram</a></div></div></article>
+      <article class="card"><img class="photo" alt="Nasi goreng" src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=80"><div class="body"><div class="topline"><div class="name">Nasi Goreng Special</div><div class="price">$3.90</div></div><div class="desc">Nasi goreng gurih dengan telur dan topping pilihan.</div><div class="actions"><a class="btn wa" href="https://wa.me/855964065246?text=Halo%20saya%20mau%20pesan%20Nasi%20Goreng%20Special" target="_blank">WhatsApp</a><a class="btn tg" href="https://t.me/kairajsn" target="_blank">Telegram</a></div></div></article>
+      <article class="card"><img class="photo" alt="Mie" src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80"><div class="body"><div class="topline"><div class="name">Mie Ayam</div><div class="price">$3.50</div></div><div class="desc">Mie ayam hangat dengan topping ayam berbumbu dan sayur.</div><div class="actions"><a class="btn wa" href="https://wa.me/855964065246?text=Halo%20saya%20mau%20pesan%20Mie%20Ayam" target="_blank">WhatsApp</a><a class="btn tg" href="https://t.me/kairajsn" target="_blank">Telegram</a></div></div></article>
+      <article class="card"><img class="photo" alt="Kentang goreng" src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80"><div class="body"><div class="topline"><div class="name">French Fries</div><div class="price">$2.50</div></div><div class="desc">Kentang goreng renyah, cocok untuk snack atau tambahan menu.</div><div class="actions"><a class="btn wa" href="https://wa.me/855964065246?text=Halo%20saya%20mau%20pesan%20French%20Fries" target="_blank">WhatsApp</a><a class="btn tg" href="https://t.me/kairajsn" target="_blank">Telegram</a></div></div></article>
+      <article class="card"><img class="photo" alt="Es kopi" src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80"><div class="body"><div class="topline"><div class="name">Iced Coffee</div><div class="price">$2.20</div></div><div class="desc">Kopi dingin creamy dan segar untuk menemani makanan.</div><div class="actions"><a class="btn wa" href="https://wa.me/855964065246?text=Halo%20saya%20mau%20pesan%20Iced%20Coffee" target="_blank">WhatsApp</a><a class="btn tg" href="https://t.me/kairajsn" target="_blank">Telegram</a></div></div></article>
+    </section>
+
+    <div class="note"><strong>Paket BASIC:</strong> menu online, foto/nama/harga, tampilan mobile friendly, dan tombol order langsung ke WhatsApp atau Telegram.</div>
+    <div class="footer">Demo by KH DIGITAL • Digital Solutions for Cambodia</div>
+  </main>
+</body>
+</html>
